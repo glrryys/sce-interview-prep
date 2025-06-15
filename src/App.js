@@ -20,6 +20,11 @@ function SCE() {
     // await means waiting until the action is done before doing something else
 
     
+    
+    // its hidning the info in one big box instead of giving it all staight up 
+    // so u have to find ISBN and then also dig into isbn
+
+    
     const ISBNinfo = `ISBN:${ISBN}`; // locating what the number the 
     // user typed in and holds later for data finding
     const locateINFO = resData[ISBNinfo]; // locating if they can match
